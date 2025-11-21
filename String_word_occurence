@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+      String text ="apple banana apple orange banana apple";
+      String [] s = text.split("\\s+");
+      Map<String, Integer> map = new HashMap<>();
+      for(String i : s){
+        map.put(i,map.getOrDefault(i,0)+1);
+      }
+      System.out.print(map);
+  }
+}
