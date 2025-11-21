@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+      
+      // Anagram check -> same characters 
+      String s1 = "listen";
+      String s2 = "silent";
+      
+      String[] arr1 = s1.split("");
+      String[] arr2 = s2.split("");
+      
+      Arrays.sort(arr1);
+      Arrays.sort(arr2);
+      
+      String n1 = Arrays.toString(arr1);
+      String n2 = Arrays.toString(arr2);
+      
+      if(n1.equals(n2)){
+        System.out.println("anagram!!");
+      }
+    
+  }
+}
