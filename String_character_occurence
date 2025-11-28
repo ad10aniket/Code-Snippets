@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-      String s = "apple";
+      String s = "apple"; 
       char[] ch = s.toCharArray();
       System.out.println(ch);
       Map<Character, Integer> map = new HashMap<>();
