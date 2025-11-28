@@ -6,7 +6,6 @@ public class Main {
             reverse = reverse + word.charAt(i);
         }
         return reverse;
-
     }
        public static void main(String[] args) {
 // Using loop 
