@@ -5,7 +5,6 @@ public class Main {
       for(char ch : sen.toCharArray()){
         map.put(ch, map.getOrDefault(ch,0)+1);
       }
-      
       for(char c : map.keySet()){
         if(map.get(c) == 1)
         System.out.println(c);
