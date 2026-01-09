@@ -1,1 +1,16 @@
+public class OddEvenCheck {
 
+    static boolean isEven(int number) {
+        return number % 2 == 0;
+    }
+
+    public static void main(String[] args) {
+        int number = 20;
+
+        if (isEven(number)) {
+            System.out.println("Even number");
+        } else {
+            System.out.println("Odd number");
+        }
+    }
+}
