@@ -1,0 +1,27 @@
+
+import java.util.Map;
+
+public class Most_repeating_character {
+
+    static void main() {
+        String s ="applle";
+        char ch[] = s.toCharArray();
+        Map<Character,Integer> charCountMap = new java.util.HashMap<>();
+        for (char c : ch){
+            charCountMap.put(c, charCountMap.getOrDefault(c, 0) + 1);
+        }
+
+        for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
+        
+        for(char cha : charCountMap.keySet()){
+            if(charCountMap.get(cha) > 1){
+                continue;
+            }
+            System.out.println("non-repeating character: " + cha);
+        }
+    }
+
+}
+
