@@ -1,4 +1,4 @@
-public class sortingArrayWithoutInBuildMethod {
+public class sortingArrayWithoutInBuildMethodClass {
 
 public static void main (String[] args){
 
