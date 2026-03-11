@@ -1,4 +1,4 @@
-public static int[] biggestByLength(int[][] arrays) {
+public static int[] biggestIntByLength(int[][] arrays) {
     if (arrays == null || arrays.length == 0) return null;
 
     int[] biggest = arrays[0];
