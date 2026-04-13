@@ -5,7 +5,7 @@ public static void main (String[] args){
         String str = Integer.toString(n);
         String revStr = new StringBuilder(str).reverse().toString();
         if (str.equals(revStr)) {
-            System.out.println(n + " is a palindrome number.");
+            System.out.println(n + " is palindrome number.");
         } else {
             System.out.println(n + " is not a palindrome number.");
         }
